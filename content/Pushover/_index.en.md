@@ -1,6 +1,8 @@
 +++
 #archetype = "chapter"
-title = "Pushover"
+title = "Home"
 weight = 1
 +++
-Click on 1 of the chapters on the left
+Documentation site for adding powershell and other augments to your TwoToneDetect deployment. 
+
+For more information about TwoToneDetect please check it out here. 
