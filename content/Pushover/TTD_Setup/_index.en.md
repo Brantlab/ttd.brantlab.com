@@ -35,9 +35,16 @@ Some notes on both commands
 1. Be sure your `"C:\TwoToneDetect73g\WhatYoudLike.ps1"` is the correct path for your instance. 
 2. The `-Des "[d]" -Time [t] -mp3 [mp3]` are parameters that will be automatically filled in by TwoToneDetect
 3. You need to have your execution policy set for your system to allow the scripts to run.
-    * This is where things could be tricky. Depending on if this is a shared system or dedicated. [Here is a link with the help docs for it](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.4). 
-    * If this is a shared system I would do remotesigned and bypass the scripts as noted in the help article
-    * If this is a dedicated system to twotonedetect I would set unrestricted and the risk is relatively small.  
+
+{{% notice style="warning" title="I Don't Advise On Security - Proceed at your own risk!" icon="skull-crossbones" %}}
+- This is where things could be tricky. Depending on if this is a shared system or dedicated.
+- [Here is a link with the help docs for it](https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.4). 
+- If this is a shared system I would do remotesigned and bypass the scripts as noted in the help article
+- If this is a dedicated system to twotonedetect I would set unrestricted and the risk is relatively small.  
+{{% /notice %}}
+
+
+
 
 Once you have your command select go ahead and paste it in the post-email command box and save your tones config. 
 

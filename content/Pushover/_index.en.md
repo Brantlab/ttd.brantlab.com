@@ -1,5 +1,5 @@
 +++
-archetype = "chapter"
+#archetype = "chapter"
 title = "Pushover"
 weight = 1
 +++
